@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    /* background-image:url("https://media.istockphoto.com/id/1148605616/fi/vektori/edustan-kehitysviivan-kuvakkeet-merkit-vektorisarja-%C3%A4%C3%A4riviivakuvakonsepti.jpg?s=612x612&w=0&k=20&c=5kuFyzigLK5f8MVJJv1MdKDtSTmMvV9NMFOAHymWKE4="); */
+    /* background-image:url("nadiia-ploshchenko-dqoVAGUT6pM-unsplash.jpg"); */
+    background-image:url("IMG-20250205-WA0017[1].jpg");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+   
+}
+
+
+
+
+.container {
+    background: rgb(239, 239, 239);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+   
+}
+
+#lastcall{
+color: rgb(239, 239, 239);
+padding-top:2px;
+text-decoration: solid;
+
+}
+h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    position: relative;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a0b0a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #bca9a9;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.completed {
+    cursor: pointer;
+    text-decoration: line-through;
+    color: rgb(131, 100, 224);
+}
+
+.delete-btn {
+    width:02cqmax;
+    background: rgb(240, 31, 31);
+    color: white;
+    border: 2px solid rgb(221, 229, 223);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
